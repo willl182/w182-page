@@ -1,0 +1,58 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #000; /* Fondo github supuestamente */
+  color: #333; /* Color de texto */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90vh;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  color: #ed6815; /* Color del título */
+}
+
+h2,
+h3 {
+  color: #b82500; /* Color de los subtítulos */
+}
+
+section {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: #00aeff; /* Color de los enlaces */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: auto; /* Asegura que el pie de página esté al final */
+  padding-top: 20px;
+  font-size: 0.9em;
+  color: #777; /* Color del pie de página */
+}
