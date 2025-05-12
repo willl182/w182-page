@@ -56,3 +56,14 @@ footer {
   font-size: 0.9em;
   color: #777; /* Color del pie de página */
 }
+
+.imagen-responsiva {
+  max-width: 100%; /* La imagen nunca será más ancha que su contenedor */
+  height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+  display: block; /* Opcional, pero bueno para evitar espacios extra debajo de la imagen y para poder centrarla */
+  /* Si quieres centrar la imagen horizontalmente (si su 'max-width' es menor que el contenedor): */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* O de forma abreviada para centrar: */
+  /* margin: 20px auto; /* (20px de margen arriba/abajo, auto en los lados para centrar) */
+}
